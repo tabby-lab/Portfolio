@@ -3,21 +3,32 @@ EDIT ON
 body {
   margin: 0;
   overflow: hidden;
+  height:20px;
 }
 
 .background {
   width: 100vw;
-  height:  100vh;
+  height: 10, 100vh;
   background: #3E1E68;
 }
 
 .main-div{
-  height:30%;
+  height:20%;
   width:50%;
 
 }
+.jumbotron{
+  background-color: #E45A84;
+}
 .p-text{
   color:white;
+  text-align: center;
+  
+}
+
+.social{
+  font-size:2.5em;
+  padding:1.2rem;
 }
 
 .background span {
