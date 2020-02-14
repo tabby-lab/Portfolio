@@ -17,6 +17,9 @@ body {
   width:50%;
 
 }
+.card{
+  background-color: purple;
+}
 
 .mainBio{
   text-align: center;
