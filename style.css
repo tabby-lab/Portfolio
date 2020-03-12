@@ -1,31 +1,56 @@
-HTML CSSResult
-EDIT ON
+
 body {
+  font-family: 'Bad Script';font-size: 22px;
   margin: 0;
-  overflow: hidden;
-  height:20px;
+  background: linear-gradient(-45deg, #53545a, #597ab6, #80959c, #2f2f30, rgb(59, 84, 94));
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
 }
 
-.background {
-  width: 100vw;
-  height: 10, 100vh;
-  background: #3E1E68;
+.picture{
+  float: right;
+  margin-right:50%;
+  
+}
+.p-text{
+flex-wrap: wrap;
+}
+
+.background{
+  flex-wrap: wrap;
+}
+
+img{
+  min-width: 250px;
+  min-height: 250px;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 .main-div{
-  height:20%;
-  width:50%;
+  height:10%;
+  width:40%;
 
 }
-.card{
-  background-color: purple;
+
+.name{
+margin-top: 5%;
 }
+
+
+.img-circle {
+  border-radius: 50%;
+
+}
+
 
 .mainBio{
   text-align: center;
   margin:0 auto;
   z-index: 1000;
+  height:30px;
 }
+
 
 
 .name{
@@ -33,10 +58,10 @@ body {
 
 }
 .jumbotron{
-  background-color: rgb(247, 186, 204);
+  background-color: rgb(119, 112, 112);
 }
 .p-text{
-  color:white;
+  color:rgb(0, 0, 0);
   text-align: center;
   
 }
@@ -46,200 +71,16 @@ body {
   padding:1.5rem;
 }
 
-.background span {
-  width: 20vmin;
-  height: 20vmin;
-  border-radius: 20vmin;
-  backface-visibility: hidden;
-  position: absolute;
-  animation-name: move;
-  animation-duration: 6s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-.background span:nth-child(1) {
-  color: #FFACAC;
-  top: 72%;
-  left: 77%;
-  animation-duration: 14.5s;
-  animation-delay: -4.4s;
-  transform-origin: 25vw -22vh;
-  box-shadow: -40vmin 0 5.6070364335vmin currentColor;
-}
-.background span:nth-child(2) {
-  color: #583C87;
-  top: 91%;
-  left: 3%;
-  animation-duration: 10.9s;
-  animation-delay: -5.3s;
-  transform-origin: -3vw -6vh;
-  box-shadow: -40vmin 0 13.877134962vmin currentColor;
-}
-.background span:nth-child(3) {
-  color: #FFACAC;
-  top: 84%;
-  left: 82%;
-  animation-duration: 13.8s;
-  animation-delay: -2.4s;
-  transform-origin: -7vw -22vh;
-  box-shadow: 40vmin 0 12.215449227vmin currentColor;
-}
-.background span:nth-child(4) {
-  color: #E45A84;
-  top: 83%;
-  left: 90%;
-  animation-duration: 13.1s;
-  animation-delay: -15s;
-  transform-origin: 9vw -6vh;
-  box-shadow: -40vmin 0 14.0106828207vmin currentColor;
-}
-.background span:nth-child(5) {
-  color: #E45A84;
-  top: 57%;
-  left: 54%;
-  animation-duration: 12.1s;
-  animation-delay: -15.2s;
-  transform-origin: 21vw 17vh;
-  box-shadow: -40vmin 0 11.1962639885vmin currentColor;
-}
-.background span:nth-child(6) {
-  color: #FFACAC;
-  top: 92%;
-  left: 6%;
-  animation-duration: 13.6s;
-  animation-delay: -7.3s;
-  transform-origin: 17vw -10vh;
-  box-shadow: -40vmin 0 13.6717432935vmin currentColor;
-}
-.background span:nth-child(7) {
-  color: #FFACAC;
-  top: 36%;
-  left: 7%;
-  animation-duration: 14.5s;
-  animation-delay: -8s;
-  transform-origin: -7vw -20vh;
-  box-shadow: -40vmin 0 13.3189101666vmin currentColor;
-}
-.background span:nth-child(8) {
-  color: #583C87;
-  top: 34%;
-  left: 11%;
-  animation-duration: 11.6s;
-  animation-delay: -11.1s;
-  transform-origin: -17vw 4vh;
-  box-shadow: 40vmin 0 5.2526183568vmin currentColor;
-}
-.background span:nth-child(9) {
-  color: #583C87;
-  top: 65%;
-  left: 95%;
-  animation-duration: 14s;
-  animation-delay: -3.4s;
-  transform-origin: -13vw 2vh;
-  box-shadow: 40vmin 0 14.261733976vmin currentColor;
-}
-.background span:nth-child(10) {
-  color: #583C87;
-  top: 81%;
-  left: 38%;
-  animation-duration: 14.5s;
-  animation-delay: -3.3s;
-  transform-origin: 24vw -14vh;
-  box-shadow: -40vmin 0 12.2847419795vmin currentColor;
-}
-.background span:nth-child(11) {
-  color: #FFACAC;
-  top: 72%;
-  left: 36%;
-  animation-duration: 10.3s;
-  animation-delay: -9.5s;
-  transform-origin: 11vw -4vh;
-  box-shadow: -40vmin 0 13.9332350047vmin currentColor;
-}
-.background span:nth-child(12) {
-  color: #E45A84;
-  top: 51%;
-  left: 67%;
-  animation-duration: 15.9s;
-  animation-delay: -13.4s;
-  transform-origin: 1vw -14vh;
-  box-shadow: -40vmin 0 5.5792990414vmin currentColor;
-}
-.background span:nth-child(13) {
-  color: #583C87;
-  top: 6%;
-  left: 72%;
-  animation-duration: 13.1s;
-  animation-delay: -14.4s;
-  transform-origin: 18vw 2vh;
-  box-shadow: 40vmin 0 8.1938575473vmin currentColor;
-}
-.background span:nth-child(14) {
-  color: #583C87;
-  top: 2%;
-  left: 31%;
-  animation-duration: 14.5s;
-  animation-delay: -12.3s;
-  transform-origin: 10vw 15vh;
-  box-shadow: -40vmin 0 5.0291019813vmin currentColor;
-}
-.background span:nth-child(15) {
-  color: #FFACAC;
-  top: 3%;
-  left: 24%;
-  animation-duration: 10.1s;
-  animation-delay: -7.6s;
-  transform-origin: 20vw 24vh;
-  box-shadow: -40vmin 0 7.4169420337vmin currentColor;
-}
-.background span:nth-child(16) {
-  color: #FFACAC;
-  top: 23%;
-  left: 98%;
-  animation-duration: 10.7s;
-  animation-delay: -12.4s;
-  transform-origin: 15vw -13vh;
-  box-shadow: -40vmin 0 13.9220476533vmin currentColor;
-}
-.background span:nth-child(17) {
-  color: #E45A84;
-  top: 25%;
-  left: 69%;
-  animation-duration: 12.8s;
-  animation-delay: -11.7s;
-  transform-origin: -22vw 6vh;
-  box-shadow: 40vmin 0 14.8613160128vmin currentColor;
-}
-.background span:nth-child(18) {
-  color: #583C87;
-  top: 85%;
-  left: 82%;
-  animation-duration: 12.6s;
-  animation-delay: -2.6s;
-  transform-origin: 11vw -12vh;
-  box-shadow: -40vmin 0 11.6197940882vmin currentColor;
-}
-.background span:nth-child(19) {
-  color: #FFACAC;
-  top: 27%;
-  left: 97%;
-  animation-duration: 13.1s;
-  animation-delay: -0.9s;
-  transform-origin: 16vw 14vh;
-  box-shadow: -40vmin 0 6.0840600975vmin currentColor;
-}
-.background span:nth-child(20) {
-  color: #E45A84;
-  top: 31%;
-  left: 98%;
-  animation-duration: 15.5s;
-  animation-delay: -8.4s;
-  transform-origin: 3vw 22vh;
-  box-shadow: 40vmin 0 13.6005149961vmin currentColor;
-}
 
-@keyframes move {
-  100% {
-    transform: translate3d(0, 0, 0) rotate(360deg);
-  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
