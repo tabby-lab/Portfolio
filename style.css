@@ -1,26 +1,28 @@
 
 body {
-  font-family: 'Bad Script';font-size: 22px;
+ 
+  font-family: sans-serif;font-size: 22px;
   margin: 0;
-  background: linear-gradient(-45deg, #53545a, #597ab6, #80959c, #2f2f30, rgb(59, 84, 94));
+  padding:0;
+  background: linear-gradient(-45deg, #53545a, #597ab6, #80959c, #2f2f30, rgb(12, 57, 75));
 	background-size: 400% 400%;
 	animation: gradient 8s ease infinite;
 }
 
-.picture{
-  float: right;
-  margin-right:50%;
-  
-}
-.p-text{
-flex-wrap: wrap;
-}
-
-.background{
-  flex-wrap: wrap;
+.container{
+  top:50%;
+  left:50%;
+  width:600px;
+  padding:30px;
+  box-sizing:border-box;
 }
 
-img{
+.img-circle{
+  background:url(./assets1/kittyyyyy2.jpeg);
+  border-radius:70%;
+  float:left;
+  shape-outside:circle();
+  margin:30px;
   min-width: 250px;
   min-height: 250px;
   max-width: 250px;
@@ -34,37 +36,46 @@ img{
 }
 
 .name{
-margin-top: 5%;
+  margin-top: 5%;
 }
 
+.display-4{
+  justify-content: center;
+  text-align: center;
+ 
 
-.img-circle {
-  border-radius: 50%;
-
+} 
+#lang{
+  text-align: center;
+  justify-content: center;
+  margin-left: 60px;
 }
-
+.welcome{
+  text-align: center;
+  justify-content: center;
+  margin-left: 80px;
+}
 
 .mainBio{
-  text-align: center;
+  
   margin:0 auto;
   z-index: 1000;
   height:30px;
+} */
+
+.text-center {
+  text-align: center;
 }
 
-
-
-.name{
-  font-weight: initial;
-
-}
 .jumbotron{
   background-color: rgb(119, 112, 112);
 }
-.p-text{
+.main_bio{
   color:rgb(0, 0, 0);
-  text-align: center;
-  
-}
+  flex-wrap: wrap;
+  float:left;
+  margin-left:80px;
+  }
 
 .social{
   font-size:3.0em;
