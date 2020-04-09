@@ -9,14 +9,23 @@ body {
 	animation: gradient 8s ease infinite;
   
 }
+
 nav{
-  background-color: #2f2f30
+  background-color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color:wheat;
 }
 
+
+.btn{
+  background-color: #2f2f30
+}
+
+.dropdown-content{
+  background-color: #2f2f30
+}
 .navbar-light{
   color:wheat;
 }
@@ -29,11 +38,11 @@ nav{
   color:rgb(107, 112, 114)
 }
 
-.container{
+.blob{
   top:50%;
   left:50%;
   /* width:600px; */
-  padding:30px;
+  padding:40px;
   box-sizing:border-box;
   border-radius:60% 40% 38% 62% / 51% 41% 59% 49%;
   background-color: #2f2f30;
@@ -66,12 +75,12 @@ nav{
   margin-top: 5%;
 }
 
-.display-4{
+/* .display-4{
   justify-content: center;
   text-align: center;
  
 
-} 
+}  */
 #lang{
   text-align: center;
   justify-content: center;
@@ -106,19 +115,35 @@ nav{
 
 .social{
   font-size:3.0em;
-  padding:1.5rem;
+  padding:0
 }
 
+.nav-wrapper{
+  background-color: #2f2f30
+}
 
+a{
+  background-color: #2f2f30
+}
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+.social{
+  font-size: 40px;
+}
+
+.card-img-top{
+  size:20px;
+}
+
+#lang{
+  margin-left: 20%;
+  text-align: center;
+}
+
+.card-img-top{
+height:170px;
+}
+
+#projects{
+  padding:0;
+ margin-top:50px;
 }
