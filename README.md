@@ -2,15 +2,14 @@
 This showcases my portfolio for future job oppurtunities.
 
 # Languages 
-HTML,CSS
+HTML, CSS, JS
 
 # Links
 https://tabby-lab.github.io/Portfolio/
 
 # Images
-![img](assets1/projectpic.png);
-![img](assets1/projectpic2.png)
+![img](assets1/aboutme.png)
+![img](assets1/form.png)
 
-# Credits
- Calvin Carter, Amanda and Mark, Youtube(responsive bootstrap website), tutor Phil Loy.
+
 
